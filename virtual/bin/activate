@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/wambui/Desktop/DJANGO/awards/virtual"
+VIRTUAL_ENV="/home/wambui/Desktop/awards/virtual"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Image
-
-
+from . import models
 
 # Register your models here.
 
-admin.site.register(Image)
+admin.site.register(models.Profile)
+admin.site.register(models.Post)
+admin.site.register(models.Rating)
